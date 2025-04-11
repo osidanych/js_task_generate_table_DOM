@@ -368,23 +368,23 @@ people.forEach((person) => {
 
   nameCell.textContent = person.name;
 
-  const sexCell = document.createElement('tr');
+  const sexCell = document.createElement('td');
 
   sexCell.textContent = person.sex;
 
-  const bornCell = document.createElement('tr');
+  const bornCell = document.createElement('td');
 
   bornCell.textContent = person.born;
 
-  const diedCell = document.createElement('tr');
+  const diedCell = document.createElement('td');
 
   diedCell.textContent = person.died;
 
-  const ageCell = document.createElement('tr');
+  const ageCell = document.createElement('td');
 
   ageCell.textContent = age;
 
-  const centuryCell = document.createElement('tr');
+  const centuryCell = document.createElement('td');
 
   centuryCell.textContent = century;
 
